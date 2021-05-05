@@ -54,8 +54,8 @@ public class HomeWorkTest {
     }
     @ParameterizedTest
     @MethodSource("checkOneAndFour")
-    void shouldCheckOneAndFour() {
-        Assertions.assertArrayEquals(new int[]{}, HomeWork.checkOneAndFour(boolean));
+    void shouldCheckOneAndFour(int [], boolean) {
+        Assertions.assertArrayEquals(new int[]{}, HomeWork.checkOneAndFour  (boolean));
     }
     private static Stream<Arguments>checkOneAndFour(int [], boolean){
         return Stream.of(

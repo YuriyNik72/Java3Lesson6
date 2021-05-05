@@ -12,8 +12,8 @@ public class HomeWork {
                     break;
                 }
             }
-
-            if (index == -1) {
+// проверка
+           if (index == -1) {
                 throw new RuntimeException("There was not found - 4");
             }
 
